@@ -2,13 +2,15 @@
 ## 环境
 *python 2.x*  
 *使用的库*：scapy库、tkinter库、scapy-http、scapy-ssl_tls  
-**安装**：   
-`<pip install scapy>`  
-`<pip install scapy-http>`  
-`<pip install pip install scapy-ssl_tls>`  
+**安装**：  
+```
+pip install scapy
+pip install scapy-http
+pip install pip install scapy-ssl_tls
+```
 **调用**：  
 ```
-import Tkinter
+from Tkinter import *
 from scapy.all import *
 from scapy.layers.ssl_tls import *
 from scapy.layers import http
