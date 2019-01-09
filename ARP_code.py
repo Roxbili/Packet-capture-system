@@ -21,7 +21,7 @@ def get_bag(bag_num, factor):
     # factor是过滤的条件，bag_num是抓包的个数
     dpkt = sniff(filter=factor, count=bag_num, prn=lambda x: x.summary(), timeout=15)
 
-    wrpcap('/home/roxbili//Documents/git/Packet-capture-system/data/demo.pcap', dpkt)  # 将上述抓取的包保存为pcap格式。
+    wrpcap('/home/roxbili/Documents/git/Packet-capture-system/data/demo.pcap', dpkt)  # 将上述抓取的包保存为pcap格式。
     return dpkt
 
 def ARP_creatpac(gatewayip, target_ip=None, my_interface="wlo1", mode="rep"):
