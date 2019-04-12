@@ -1,4 +1,4 @@
-# 数据包捕获系统（数据包捕获+ARP欺骗）
+# 简单的数据包捕获系统（数据包捕获+ARP欺骗）
 ## 环境
 *python 2.x*  
 *使用的库*：scapy库、tkinter库、scapy-http、scapy-ssl_tls  
